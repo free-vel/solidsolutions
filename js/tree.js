@@ -251,8 +251,8 @@ let timerModule = {
     stopCountdown: function() {
         clearInterval(timerModule.timerId);
         popupModule.close();
-        popupModule.overlay();
-        controlModule.delete();
+        //popupModule.overlay();
+        //controlModule.delete();
     }
 }
 
